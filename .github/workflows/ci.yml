@@ -8,6 +8,10 @@ on:
     branches: 
       - dev
       - master
+  workflow_dispatch:
+    branches:
+      - dev
+      - master
 
 jobs:
   build-and-test:
